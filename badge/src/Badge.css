@@ -1,0 +1,12 @@
+.badge{
+    text-align: center;
+    justify-content: center;
+}
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
