@@ -5,7 +5,7 @@ export default function BadgeButton({ style, label = "Badge" }) {
     const confirmed = window.confirm("Are you sure you want to proceed with the link?");
     if (!confirmed) return;
     window.open("https://www.youtube.com/","_blank");
-  };
+  };   
 
   return (
     <div className="badge-div">
